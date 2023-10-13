@@ -1,0 +1,149 @@
+:root {
+  --box-shadow: #0000ff;
+  --h1-color: #0000ff;
+  --bg-color: #00004d;
+  --golden: #b59410;
+  --text-color: #fff;
+  --border-color: lightGray;
+  --dark-bg: #000000ab;
+  font-family: "Inconsolata", monospace;
+  line-height: 1.5;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+li,
+a,
+Link {
+  font-weight: 800;
+  color: var(--text-color);
+  text-decoration: none;
+  list-style: none;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default padding */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  list-style: none;
+}
+
+/* Set core body defaults */
+body {
+  max-width: 100%;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  letter-spacing: 0.2rem;
+  background-image: url("./assets/netbg6.jpg");
+  background-position: center;
+  background-repeat: repeat-y;
+  background-size: cover;
+  color: var(--text-color);
+}
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Natural flow and rhythm in articles by default */
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media screen and (max-width: 1155px) {
+  body {
+    margin: 0;
+    max-width: 100%;
+
+    min-height: 100vh;
+    background-image: url("./assets/netbg5.jpg");
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+  }
+}

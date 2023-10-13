@@ -1,0 +1,133 @@
+.nav {
+  position: relative;
+  position: sticky;
+  inset: 0 0 auto 0;
+  z-index: 999;
+  background-color: var(--dark-bg);
+  max-width: 100%;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid var(--border-color);
+  box-shadow: 0 0 20px 0 #6b6969;
+}
+
+.nav__logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 2.2rem;
+  color: var(--golden);
+}
+
+.nav__icons {
+  color: var(--golden);
+}
+
+.nav__icons:hover {
+  color: var(--h1-color);
+  cursor: pointer;
+}
+.nav__list {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  color: var(--text-color);
+  font-size: 1.3rem;
+}
+
+.nav__name {
+  cursor: pointer;
+  user-select: none;
+}
+
+.nav__name .h1 {
+  font-size: 3.2rem;
+  line-height: 1.1;
+  color: var(--golden);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  /* font-family: "Pinyon Script", cursive; */
+}
+
+.nav__name h1:hover {
+  color: var(--h1-color);
+}
+
+.nav__hamburger {
+  color: var(--text-color);
+  font-size: 1.5rem;
+  display: none;
+}
+
+@media screen and (max-width: 1020px) {
+  .nav__name .h1 {
+    font-size: 2rem;
+    line-height: 1.1;
+  }
+  .nav__hamburger {
+    display: block;
+  }
+
+  .nav__list {
+    position: absolute;
+    top: 100px;
+    left: -100%;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--dark-bg);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    color: var(--text-color);
+    font-size: 1.5rem;
+    transition: 1000ms;
+  }
+
+  .active {
+    left: 0;
+  }
+
+  .nav__list,
+  .nav__name {
+    font-size: 2.5rem;
+  }
+}
+@media screen and (max-width: 620px) {
+  .nav__logo .h1 {
+    font-size: 1.3rem;
+  }
+  .nav__hamburger {
+    display: block;
+  }
+
+  .nav__list {
+    position: absolute;
+    top: 100px;
+    left: -100%;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--dark-bg);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    color: var(--text-color);
+    font-size: 1.5rem;
+    transition: 1000ms;
+  }
+
+  .nav__list,
+  .nav__name {
+    font-size: 2rem;
+  }
+
+  .nav__logo {
+    font-size: 1.5rem;
+  }
+
+  .active {
+    left: 0;
+  }
+}
