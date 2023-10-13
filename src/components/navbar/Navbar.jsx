@@ -19,13 +19,25 @@ const Navbar = () => {
   return (
     <div className="nav">
       <div className="nav__logo">
-        <a href="http://youtube.com/@obiRoss75309" target="_blank">
+        <a
+          rel="noreferrer"
+          href="http://youtube.com/@obiRoss75309"
+          target="_blank"
+        >
           <FaYoutube className="nav__icons" />
         </a>
-        <a href="http://instagram.com/fedrickpd" target="_blank">
+        <a
+          rel="noreferrer"
+          href="http://instagram.com/fedrickpd"
+          target="_blank"
+        >
           <FaInstagram className="nav__icons" />
         </a>
-        <a href="http://twitter.com/@ObiRoss16" target="_blank">
+        <a
+          rel="noreferrer"
+          href="http://twitter.com/@ObiRoss16"
+          target="_blank"
+        >
           <FaTwitter className="nav__icons" />
         </a>
         <a href="/">

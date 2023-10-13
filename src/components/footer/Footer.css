@@ -82,14 +82,24 @@ Link {
   }
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 620px) {
+  .footer__top {
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 4rem 0;
+  }
   .footer__list {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0.5rem;
+    text-align: center;
   }
   .footer__logo {
+    margin-top: 3rem;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+    font-size: 3.5rem;
   }
 
   .footer__foot h1 {

@@ -1,4 +1,3 @@
-import React from "react";
 import "./ProjectPortfolio.css";
 import project from "../../assets/project.png";
 import project1 from "../../assets/project1.png";
@@ -10,7 +9,6 @@ import project6 from "../../assets/project6.png";
 import project7 from "../../assets/project7.png";
 import project8 from "../../assets/project8.png";
 import project9 from "../../assets/project9.png";
-import project10 from "../../assets/project10.png";
 import project11 from "../../assets/project11.png";
 import project13 from "../../assets/project13.png";
 import project14 from "../../assets/project14.png";
