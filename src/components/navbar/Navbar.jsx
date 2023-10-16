@@ -52,7 +52,7 @@ const Navbar = () => {
           <Link to="/about">About</Link>
         </li>
         <li>
-          <Link to="/appointments">appointments</Link>
+          <Link to="/Link">appointments</Link>
         </li>
         <li>
           <Link to="/faqs">Faqs</Link>
@@ -62,9 +62,9 @@ const Navbar = () => {
         </li>
       </ul>
       <div className="nav__name">
-        <a href="/project">
+        <Link to="appointments">
           <h3 className="h1">Obi Ross</h3>
-        </a>
+        </Link>
       </div>
       <div className="nav__hamburger" onClick={handleToggle}>
         {toggle ? <FaTimes /> : <GiHamburgerMenu />}

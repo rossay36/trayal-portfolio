@@ -45,15 +45,15 @@ const Footer = () => {
           >
             <FaTwitter className="footer__icons" />
           </a>
-          <a href="/">
+          <Link href="/">
             <FaGithub className="footer__icons" />
-          </a>
+          </Link>
         </div>
       </div>
       <div className="footer__foot">
-        <a href="project">
+        <Link to="appointments">
           <h1 className="footer__h1">Obi Ross</h1>
-        </a>
+        </Link>
         <p>copyright reserve 2023 developmen policy and companies alliance.</p>
       </div>
     </div>
