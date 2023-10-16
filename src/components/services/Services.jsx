@@ -1,4 +1,3 @@
-import React from "react";
 import "./Services.css";
 import { GiSpiderWeb, GiAbstract061, GiDiagram } from "react-icons/gi";
 

@@ -1,13 +1,6 @@
-import React from "react";
 import "./Footer.css";
 import { Link } from "react-router-dom";
-import {
-  FaYoutube,
-  FaTwitter,
-  FaGithub,
-  FaTimes,
-  FaInstagram,
-} from "react-icons/fa";
+import { FaYoutube, FaTwitter, FaGithub, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -21,7 +14,7 @@ const Footer = () => {
             <Link to="/about">About</Link>
           </li>
           <li>
-            <Link to="/appointment">Appointment</Link>
+            <Link to="/appointments">Appointment</Link>
           </li>
           <li>
             <Link to="/faqs">Faqs</Link>
@@ -31,13 +24,25 @@ const Footer = () => {
           </li>
         </ul>
         <div className="footer__logo">
-          <a href="http://youtube.com/@obiRoss75309" target="_blank">
+          <a
+            rel="noreferrer"
+            href="http://youtube.com/@obiRoss75309"
+            target="_blank"
+          >
             <FaYoutube className="footer__icons" />
           </a>
-          <a href="http://instagram.com/fedrickpd" target="_blank">
+          <a
+            rel="noreferrer"
+            href="http://instagram.com/fedrickpd"
+            target="_blank"
+          >
             <FaInstagram className="footer__icons" />
           </a>
-          <a href="http://twitter.com/@ObiRoss16" target="_blank">
+          <a
+            rel="noreferrer"
+            href="http://twitter.com/@ObiRoss16"
+            target="_blank"
+          >
             <FaTwitter className="footer__icons" />
           </a>
           <a href="/">

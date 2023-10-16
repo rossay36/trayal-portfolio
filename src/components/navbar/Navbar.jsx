@@ -63,7 +63,7 @@ const Navbar = () => {
       </ul>
       <div className="nav__name">
         <a href="/project">
-          <h1 className="h1">Obi Ross</h1>
+          <h3 className="h1">Obi Ross</h3>
         </a>
       </div>
       <div className="nav__hamburger" onClick={handleToggle}>

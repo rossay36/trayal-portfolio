@@ -82,6 +82,7 @@ dd {
 
 /* Set core body defaults */
 body {
+  /* font-family: "Dancing Script", cursive; */
   max-width: 100%;
   min-height: 100vh;
   scroll-behavior: smooth;

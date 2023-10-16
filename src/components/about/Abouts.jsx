@@ -1,5 +1,5 @@
 import "./Abouts.css";
-import man from "../../assets/man.jpg";
+import ross1 from "../../assets/ross1.png";
 import { InlineWidget } from "react-calendly";
 
 const Abouts = () => {
@@ -11,7 +11,7 @@ const Abouts = () => {
       </div>
       <div className="abouts__col">
         <div className="abouts__rows1">
-          <img src={man} />
+          <img src={ross1} />
         </div>
         <div className="abouts__rows">
           <InlineWidget url="https://calendly.com/obi75309/ro?hide_event_type_details=1&hide_gdpr_banner=1&background_color=1a1a1a&text_color=299ac4&primary_color=ffffff" />

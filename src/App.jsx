@@ -2,6 +2,7 @@ import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Home, About, Appointments, Faqs, Project } from "./pages";
 import Navbar from "./components/navbar/Navbar";
+import PageNotFound from "./pages/PageNotFound";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
           <Route path="/appointments" element={<Appointments />} />
           <Route path="/faqs" element={<Faqs />} />
           <Route path="/project" element={<Project />} />
+          <Route path="*" element={<PageNotFound />} />
         </Routes>
       </BrowserRouter>
     </div>

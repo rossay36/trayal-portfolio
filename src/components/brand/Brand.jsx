@@ -1,4 +1,3 @@
-import React from "react";
 import "./Brand.css";
 import amexpress from "../../assets/amexpress.png";
 import canon from "../../assets/canon.png";

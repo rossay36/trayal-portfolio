@@ -1,4 +1,3 @@
-import React from "react";
 import letterO from "../../assets/letterO.png";
 import letterB from "../../assets/letterB.png";
 import letterI from "../../assets/letterI.png";
