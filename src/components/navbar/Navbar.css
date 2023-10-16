@@ -116,6 +116,7 @@
   }
   .nav__hamburger {
     display: block;
+    margin-top: 2.8rem;
   }
 
   .nav__list {
@@ -141,6 +142,7 @@
 
   .nav__logo {
     font-size: 1.2rem;
+    margin-top: 2rem;
   }
 
   .active {
